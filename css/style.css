@@ -1,0 +1,139 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: #051923;
+    padding: 11px;
+}
+.pHeader{
+    color: #cae9ff;
+}
+.logoInstagram{
+}
+/* body */
+body{
+    background-color: #051923;
+}
+/* footer */
+footer{
+    display: flex;
+    background-color:#003554;
+    color: #cae9ff;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgFooter{
+    width: 10%;
+}
+/* home */
+.divHome{
+    background-color: #003554;
+    text-align: center;
+    color: #cae9ff;
+    text-shadow: 2px 2px #051923;
+}
+.mainHome{
+    display: flex;
+    background-color: #051923;
+    padding: 25px;
+}
+.imgMain{
+    width: 1000px;
+    height: 700px;
+
+}
+.pMain{
+    padding-left: 20px;
+    color: #cae9ff;
+}
+/* areas */
+.h1Areas{
+    text-align: center;
+    background-color: #003554;
+    color: #cae9ff;
+    padding: 20px;
+    text-shadow: 2px 2px #051923;
+}
+.sectionAP{
+    position: relative;
+}
+.sectionAP{
+    background-color: #051923;
+    color: #cae9ff;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+    margin: 20px;
+}
+.h2Areas{
+    position: absolute;
+    background-color: #051923;
+    width: 100%;
+    margin: ;
+
+}
+@media (min-width:844px) {
+    .sectionAP{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* nosotros */
+.h1Nos{
+    text-align: center;
+    background-color: #003554;
+    color: #cae9ff;
+    padding: 20px;
+    text-shadow: 2px 2px #051923;
+}
+.mainNos{
+    display: grid;
+}
+.divNos{
+    color: #cae9ff;
+    text-align: center;
+    margin: 30px;
+}
+/* estudio */
+.h1Es{
+    text-align: center;
+    background-color: #003554;
+    color: #cae9ff;
+    padding: 20px;
+    text-shadow: 2px 2px #051923;
+
+}
+.mainEs{
+    display: flex;
+}
+.imgEs{
+    width: 60%;
+    height: 60%;
+    margin: 20px;
+}
+.h2Es{
+    color: #cae9ff;
+    margin: 20px;
+}
+/* contacto */
+.mainCon{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px;
+    padding: 30px;
+}
+.card-text{
+    color: #051923;
+}
+@media (min-width:844px) {
+    .mainCon{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
